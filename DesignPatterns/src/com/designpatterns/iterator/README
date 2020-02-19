@@ -1,0 +1,15 @@
+Sýnýflara ait hiyerarþi
+
+RadioStation -> Radyo Ýstasyonlarýna ait bilgileri tutar (ad, tür, yayýn alaný, frekans)
+RadioStationType -> Radyo istasyonu türüdür (müzik, haber vb.)
+BroadcastArea -> Radyo istasyonuna ait yayýn alanýdýr (yerel, ulusal)
+
+RadioStationCollection -> Radyo Ýstasyonu için Oluþturulacak Collection yapýsý için metotlarý tanýmlayan interface
+RadioStationCollectionImpl -> Radyo istasyonlarýnýn listesini tutan bir Collection yapýsý (kanal ekleme, çýkarma vb. iþlemleri yapar.)
+
+
+RadioStationIterator -> RadioStationCollectionImpl türünden nesne üzerinden döngü kurulmasýný saðlayacak olan iteratörlere arayüz saðlar
+RadioStationTypeIterator ->  RadioStationCollectionImpl türünden nesne üzerinden, radyo istasyon tipine göre döngü kurulmasýný saðlar.
+RadioStationAreaIterator ->  RadioStationCollectionImpl türünden nesne üzerinden, yayýn alanýna (yerel, ulusal) göre döngü kurulmasýný saðlar.
+
+

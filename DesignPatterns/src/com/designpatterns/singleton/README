@@ -1,0 +1,15 @@
+Bu com.desingpatterns.singleton paketinin içerisindeki singleton türlerini incelerken;
+
+ClassicSingleton
+ClassicSingletonProblem
+
+ClassicSynchronizedSingleton
+ClassicSynchronizedSingletonExample
+
+EagerSingleton
+EagerSingletonExample
+
+DoubleCheckedSingleton
+DoubleCheckedSingletonExample 
+
+þeklinde incelenmesi konunun anlaþýlmasý açýsýndan iyi olacaktýr. 
